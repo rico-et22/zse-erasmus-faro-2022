@@ -7,13 +7,11 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Praktyki Erasmus+ ZSE Faro & Algarve 2022</title>
-        <meta name="description" content="Strona podsumowująca praktyki zawodowe Erasmus+ Zespołu Szkół Elektronicznych w Rzeszowie - Faro, Portugalia 2022" />
+        <title>Error 404</title>
       </Head>
 
       <Navbar />
-      <HeaderBanner />
-
+      <h1>404</h1>
     </div>
   )
 }
