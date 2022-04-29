@@ -12,7 +12,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
+      
       <HeaderBanner />
+      
 
     </div>
   )
