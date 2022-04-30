@@ -19,7 +19,7 @@ export default function Navbar() {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <nav className="flex justify-between items-center shadow-lg bg-gray-50 relative">
+    <nav className="flex justify-between items-center shadow-lg relative">
       <Link href="/" passHref>
         <a className="m-4">
           {/* eslint-disable-next-line @next/next/no-img-element */}
