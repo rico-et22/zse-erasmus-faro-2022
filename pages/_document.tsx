@@ -22,7 +22,7 @@ export default function Document() {
           href="/favicon-16x16.png"
         />
       </Head>
-      <body className="bg-gray-50 min-h-screen">
+      <body className="bg-gray-50 min-h-screen text-neutral-800">
         <Main />
         <NextScript />
       </body>
