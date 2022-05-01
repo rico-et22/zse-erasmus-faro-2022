@@ -13,7 +13,7 @@ export default function FooterLogos() {
           loading="lazy"
         />
         <img
-          src="/Erasmus+_Logo.svg"
+          src="/Erasmus_Logo.svg"
           alt="Erasmus"
           className="h-8 sm:h-12 mb-4 mx-1 sm:mx-2"
           loading="lazy"
