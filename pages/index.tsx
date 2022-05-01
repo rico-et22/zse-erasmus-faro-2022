@@ -4,6 +4,7 @@ import FooterLogos from "../components/FooterLogos";
 import HeaderBanner from "../components/index/HeaderBanner";
 import Navbar from "../components/Navbar";
 import TextHeader from "../components/TextHeader";
+import InfoGraphics from '../components/infographics'
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +16,6 @@ const Home: NextPage = () => {
           content="Strona podsumowująca praktyki zawodowe Erasmus+ Zespołu Szkół Elektronicznych w Rzeszowie - Faro, Portugalia 2022"
         />
       </Head>
-
       <Navbar />
 
       <HeaderBanner />
