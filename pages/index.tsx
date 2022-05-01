@@ -4,7 +4,7 @@ import FooterLogos from "../components/FooterLogos";
 import HeaderBanner from "../components/index/HeaderBanner";
 import Navbar from "../components/Navbar";
 import TextHeader from "../components/TextHeader";
-import InfoGraphics from '../components/infographics'
+import InfoGraphics from '../components/InfoGraphics'
 
 const Home: NextPage = () => {
   return (
@@ -23,9 +23,15 @@ const Home: NextPage = () => {
       <div className="bg-gray-100 py-8">
         <div className="container mx-auto">
           <TextHeader left="O" right="projekcie" />
-          <div className="flex">
-            <div className="w-1/4">Infos.</div>
-            <div className="w-3/4">
+          <div className="flex -mx-4">
+            <div className="w-1/4 px-4">
+              <InfoGraphics icon="bi-person-circle" boldText="28" text="uczniów" />
+              <InfoGraphics icon="bi-people" boldText="4" text="nauczycieli" />
+              <InfoGraphics icon="bi-calendar" boldText="21" text="dni" />
+              <InfoGraphics icon="bi-building" boldText="8" text="firm" />
+              <InfoGraphics icon="bi-compass-fill" boldText="7" text="wycieczek" />
+            </div>
+            <div className="w-3/4 px-4">
               <p>
                 W okresie od 23.04-14.05.2022 roku 28 uczniów Zespołu Szkół
                 Elektronicznych w Rzeszowie zrealizowało 3-tygodniowe praktyki
