@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import TextContentWithImage from '../components/ContentWriting'
 import FooterLogos from '../components/FooterLogos'
 import HeaderBanner from '../components/index/HeaderBanner'
 import Navbar from '../components/Navbar'
-
 const Home: NextPage = () => {
   return (
     <div>
@@ -15,9 +15,7 @@ const Home: NextPage = () => {
       <Navbar />
       
       <HeaderBanner />
-
       <FooterLogos />
-      
 
     </div>
   )
