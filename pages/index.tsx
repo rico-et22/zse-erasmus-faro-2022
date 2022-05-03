@@ -58,24 +58,24 @@ const Home: NextPage = () => {
                 stolicy regionu Algarve, oraz innych miastach tego regionu, we
                 współpracy z WakeUp Projects.
               </p>
-              <hr className="border-gray-300 my-8" />
-              <ol className="list-decimal ml-4">
-                <li className="mb-2">
+              <hr className="border-gray-500 my-8 w-1/4" />
+              <ol className="list-decimal ml-4 text-sm">
+                <li className="mb-5">
                   Projekt o numerze 2021-1-PL01-KA121-VET-000008145 jest
                   realizowany w Programie UE Erasmus+, typ akcji: KA121-VET
                   -Akredytowane Projekty na rzecz mobilności osób uczących się i
                   kadry w sektorze kształcenia iszkolenia zawodowego.
                 </li>
-                <li className="mb-2">
+                <li className="mb-6">
                   Projekt jest realizowany jest przez Zespół Szkół
-                  Elektronicznych w Rzeszowie w okresie od 01. 09. 2021r. do
+                  Elektronicznych w Rzeszowie w okresie od 01.09.2021r. do
                   30.11.2022r.
                 </li>
-                <li className="mb-2">
+                <li className="mb-6">
                   Projekt finansowany jest z funduszy Unii Europejskiej w ramach
                   Programu Erasmus+.
                 </li>
-                <li className="mb-2">
+                <li className="mb-6">
                   Działania w Projekcie są zgodne z warunkami akredytacji
                   Zespołu Szkół Elektronicznych (ZSE) w Rzeszowie w programie
                   Erasmus+, nr akredytacji: 2020-1-PL01-KA120-VET-095534 i z
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
                   lata 2020-2026 zatwierdzonym przez Radę Pedagogiczną ZSE na
                   zebraniu w dniu 29.01.2020 r.
                 </li>
-                <li className="mb-2">
+                <li className="mb-6">
                   Cele Projektu:
                   <ol className="list-[lower-alpha] ml-6 mt-1">
                     <li>
@@ -127,7 +127,7 @@ const Home: NextPage = () => {
                     </li>
                   </ol>
                 </li>
-                <li className="mb-2">
+                <li>
                   W ramach Projektu zostanie zorganizowany wyjazd 28 uczniów ZSE
                   pod opieką 2 nauczycieli towarzyszących na 3-tygodniowe
                   praktyki zawodowe do Portugalii (od 25.04.2022 do
