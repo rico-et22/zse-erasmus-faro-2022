@@ -110,7 +110,7 @@ const Uczestnicy: NextPage = () => {
       <Navbar />
 
       <div className="bg-gray-100 py-8">
-        <div className="container mx-auto">
+        <div className="container mx-auto overflow-x-hidden">
           <TextHeader left="Uczestnicy" right="projektu" />
           <div className="flex flex-wrap mx-6 sm:-mx-6">
             <div className="w-full sm:w-1/3 sm:px-6">

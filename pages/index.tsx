@@ -23,8 +23,8 @@ const Home: NextPage = () => {
       <div className="bg-gray-100 py-8">
         <div className="container mx-auto">
           <TextHeader left="O" right="projekcie" />
-          <div className="flex flex-col sm:flex-row sm:-mx-4">
-            <div className="sm:w-1/4 px-4 -mx-2">
+          <div className="flex flex-col sm:flex-row -mx-4 overflow-hidden">
+            <div className="sm:w-1/3 md:w-1/4 px-4 -mx-2">
               <div className="flex flex-wrap">
                 <InfoGraphics
                   icon="bi-person-circle"
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
                 />
               </div>
             </div>
-            <div className="sm:w-3/4 px-4">
+            <div className="sm:w-2/3 md:w-3/4 px-4">
               <p>
                 W okresie od 23.04-14.05.2022 roku 28 uczniów Zespołu Szkół
                 Elektronicznych w Rzeszowie zrealizowało 3-tygodniowe praktyki

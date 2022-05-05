@@ -15,6 +15,9 @@ module.exports = {
         xxs: "420px",
         xs: "600px",
       },
+      container: {
+        padding: '1rem',
+      },
     },
   },
   plugins: [],
