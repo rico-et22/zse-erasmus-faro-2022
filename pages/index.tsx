@@ -52,8 +52,7 @@ const Home: NextPage = () => {
                 zawodowe z elektroniki, informatyki i automatyki w Portugalii.{" "}
                 <br />
                 <br />
-                Staż zagraniczny odbywał się w ramach projektu Erasmus+ „Lepszy
-                start - europejskie praktyki zawodowe”. <br />
+                Staż zagraniczny odbywał się w ramach projektu Erasmus+. <br />
                 <br /> Praktyki zostały zorganizowane po raz pierwszy w Faro -
                 stolicy regionu Algarve, oraz innych miastach tego regionu, we
                 współpracy z WakeUp Projects.
