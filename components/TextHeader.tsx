@@ -3,7 +3,7 @@ import * as React from "react";
 
 interface Props {
   left: string;
-  right: string;
+  right?: string;
 }
 
 export default function TextHeader({ left, right }: Props) {
