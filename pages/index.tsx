@@ -23,25 +23,28 @@ const Home: NextPage = () => {
       <div className="bg-gray-100 py-8">
         <div className="container mx-auto">
           <TextHeader left="O" right="projekcie" />
-          <div className="flex flex-col sm:flex-row -mx-4 overflow-hidden">
+          <div className="flex flex-col sm:flex-row -mx-4 overflow-x-hidden">
             <div className="sm:w-1/3 md:w-1/4 px-4 -mx-2">
               <div className="flex flex-wrap">
                 <InfoGraphics
                   icon="bi-person-circle"
                   boldText="28"
                   text="uczniów"
+                  href="/uczestnicy"
                 />
                 <InfoGraphics
                   icon="bi-people"
                   boldText="4"
                   text="nauczycieli"
+                  href="/uczestnicy#nauczyciele"
                 />
-                <InfoGraphics icon="bi-calendar" boldText="21" text="dni" />
-                <InfoGraphics icon="bi-building" boldText="8" text="firm" />
+                <InfoGraphics icon="bi-calendar" boldText="21" text="dni" href="/przebieg" />
+                <InfoGraphics icon="bi-building" boldText="8" text="firm" href="/instytucje#firmy" />
                 <InfoGraphics
                   icon="bi-compass-fill"
                   boldText="7"
                   text="wycieczek"
+                  href="/przebieg#wycieczki"
                 />
               </div>
             </div>
@@ -53,7 +56,7 @@ const Home: NextPage = () => {
                 <br />
                 <br />
                 Staż zagraniczny odbywał się w ramach projektu Erasmus+. <br />
-                <br /> Praktyki zostały zorganizowane po raz pierwszy w Faro -
+                <br /> Praktyki zostały zorganizowane po raz pierwszy w historii szkoły w Faro -
                 stolicy regionu Algarve, oraz innych miastach tego regionu, we
                 współpracy z WakeUp Projects.
               </p>
