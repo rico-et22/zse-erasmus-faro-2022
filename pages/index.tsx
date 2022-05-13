@@ -63,7 +63,7 @@ const Home: NextPage = () => {
                   Projekt o numerze 2021-1-PL01-KA121-VET-000008145 jest
                   realizowany w Programie UE Erasmus+, typ akcji: KA121-VET
                   -Akredytowane Projekty na rzecz mobilności osób uczących się i
-                  kadry w sektorze kształcenia iszkolenia zawodowego.
+                  kadry w sektorze kształcenia i szkolenia zawodowego.
                 </li>
                 <li className="mb-6">
                   Projekt jest realizowany jest przez Zespół Szkół
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                   Działania w Projekcie są zgodne z warunkami akredytacji
                   Zespołu Szkół Elektronicznych (ZSE) w Rzeszowie w programie
                   Erasmus+, nr akredytacji: 2020-1-PL01-KA120-VET-095534 i z
-                  Europejskim Planem Rozwoju Zespołu Szkół Elektronicznychna
+                  Europejskim Planem Rozwoju Zespołu Szkół Elektronicznych na
                   lata 2020-2026 zatwierdzonym przez Radę Pedagogiczną ZSE na
                   zebraniu w dniu 29.01.2020 r.
                 </li>
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
                   <ol className="list-[lower-alpha] ml-6 mt-1">
                     <li>
                       Zwiększenie mobilności oraz doświadczenia zawodowego
-                      uczniów z ZSE poprzez udziałw 3-tygodniowych zagranicznych
+                      uczniów z ZSE poprzez udział w 3-tygodniowych zagranicznych
                       praktykach zawodowych z elektroniki, informatyki i
                       automatyki.
                     </li>
