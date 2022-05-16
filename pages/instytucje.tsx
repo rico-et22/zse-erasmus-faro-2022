@@ -80,7 +80,7 @@ const Instytucje: NextPage = () => {
       <Navbar />
 
       <div className="bg-gray-100 py-8">
-        <div className="container mx-auto overflow-x-hidden">
+        <div className="container mx-auto">
           <TextHeader left="Organizatorzy" right="naszych praktyk" />
           <div className="flex mb-10 flex-col-reverse sm:flex-row">
             <p className="sm:w-3/4 md:mr-8">

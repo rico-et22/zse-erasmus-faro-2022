@@ -25,7 +25,7 @@ const Instytucje: NextPage = () => {
       <div className="bg-gray-100 py-8">
         <div className="container mx-auto overflow-x-hidden">
           <TextHeader left="Przygotowanie" right="w szkole" />
-          <div className="flex lg:mb-10 flex-col-reverse sm:flex-row items-start">
+          <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="sm:w-1/2 md:mr-8">
               <p className="mb-2">
                 Przed wyjazdem rozpoczęliśmy przygotowania mające przygotować
