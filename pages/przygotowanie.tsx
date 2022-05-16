@@ -23,7 +23,7 @@ const Instytucje: NextPage = () => {
       <Navbar />
 
       <div className="bg-gray-100 py-8">
-        <div className="container mx-auto overflow-x-hidden">
+        <div className="container mx-auto">
           <TextHeader left="Przygotowanie" right="w szkole" />
           <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="sm:w-1/2 md:mr-8">
@@ -57,7 +57,7 @@ const Instytucje: NextPage = () => {
         </div>
       </div>
       <div className="bg-gray-100 py-8">
-        <div className="container mx-auto overflow-x-hidden">
+        <div className="container mx-auto">
           <TextHeader left="Lekcje" right="portugalskiego" />
           <p className="mb-10 text-center">
             Podczas trwania praktyk uczestniczyliśmy w 10-godzinnym kursie
