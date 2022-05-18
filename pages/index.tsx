@@ -35,15 +35,15 @@ const Home: NextPage = () => {
                 <InfoGraphics
                   icon="bi-people"
                   boldText="4"
-                  text="nauczycieli"
+                  text="nauczycieli / opiekunów"
                   href="/uczestnicy#nauczyciele"
                 />
                 <InfoGraphics icon="bi-calendar" boldText="21" text="dni" href="/przebieg" />
                 <InfoGraphics icon="bi-building" boldText="8" text="firm" href="/instytucje#firmy" />
                 <InfoGraphics
                   icon="bi-compass-fill"
-                  boldText="7"
-                  text="wycieczek"
+                  boldText="8"
+                  text="aktywności kulturowych"
                   href="/przebieg#wycieczki"
                 />
               </div>
@@ -131,7 +131,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   W ramach Projektu został zorganizowany wyjazd 28 uczniów ZSE
-                  pod opieką 2 nauczycieli towarzyszących na 3-tygodniowe
+                  pod opieką 4 nauczycieli towarzyszących na 3-tygodniowe
                   praktyki zawodowe do Portugalii (od 25.04.2022 do
                   13.05.2022r.) oraz wyjazd 6 nauczycieli przedmiotów zawodowych
                   ZSE na 1-tygodniowe szkolenie do Portugalii (23-27.05.2022r.)

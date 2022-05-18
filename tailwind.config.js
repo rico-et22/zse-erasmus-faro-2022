@@ -9,16 +9,16 @@ module.exports = {
         "elektronik-red": "#D4293D",
         "elektronik-blue": "#5992ca",
         "portugal-green": "#006130",
-        "portugal-red": "#D40D05"
+        "portugal-red": "#D40D05",
       },
       screens: {
         xxs: "420px",
         xs: "600px",
       },
       container: {
-        padding: '1rem',
+        padding: "1rem",
       },
     },
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/aspect-ratio")],
+};

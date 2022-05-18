@@ -37,7 +37,7 @@ const Instytucje: NextPage = () => {
                 <li>dodatkowe lekcje języka angielskiego</li>
                 <li>zajęcia w dziedzinie bezpieczeństwa i higieny pracy</li>
                 <li>przygotowanie dokumentów Europass CV</li>
-                <li>przygotowanie kulturowe</li>
+                <li>przygotowanie kulturowo-pedagogiczne</li>
                 <li>
                   przedstawianie prezentacji nt. kultury, polityki i zwyczajów
                   panujących w Portugalii
@@ -64,8 +64,8 @@ const Instytucje: NextPage = () => {
             języka portugalskiego z native speakerem Olavo z Brazylii <br/> i
             otrzymaliśmy certyfikat jego znajomości na poziomie podstawowym.
           </p>
-          <div className="flex mb-10 flex-col md:flex-row -mx-4">
-            <div className="md:w-1/2 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0 mx-4">
+          <div className="flex mb-10 flex-col md:flex-row -m-4">
+            <div className="md:w-1/2 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0 m-4">
               <Image
                 src={jezyk1}
                 className="rounded-lg"
@@ -73,7 +73,7 @@ const Instytucje: NextPage = () => {
                 placeholder="blur"
               />
             </div>
-            <div className="md:w-1/2 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0 mx-4">
+            <div className="md:w-1/2 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0 m-4">
               <Image
                 src={jezyk2}
                 className="rounded-lg"

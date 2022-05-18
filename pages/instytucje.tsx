@@ -110,14 +110,13 @@ const Instytucje: NextPage = () => {
           </div>
           <div className="flex flex-col-reverse sm:flex-row">
             <p className="sm:w-3/4 md:mr-8">
-              Wyjazd odbył się we współpracy z instytucją pośredniczącą{" "}
-              <strong>WakeUp Projects.</strong>
+              Wyjazd został zorganizowany we współpracy z instytucją pośredniczącą{" "}
+              <strong>WakeUp Projects SL / Magic Cinderella LDA.</strong>
               <br />
               Jest to prężnie działająca organizacja zlokalizowana w
               portugalskim mieście Faro z dużym doświadczeniem w zakresie
               zarządzania i koordynacji projektów edukacynych dotyczących
-              kształcenia młodzieży w ramach programów Unii Europejskiej, która
-              zorganizowała przyjęcie nas do 8 firm z zakresu informatyki,
+              kształcenia młodzieży w ramach programów Unii Europejskiej, m.in, Erasmus+. Praktyki zostały zorganizowane w 8 firmach na terenie Faro oraz okolic działających w obszarze informatyki,
               automatyki i elektroniki.
             </p>
             <a

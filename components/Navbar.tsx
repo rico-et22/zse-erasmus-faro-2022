@@ -12,7 +12,7 @@ export default function Navbar() {
     { label: "Uczestnicy", path: "/uczestnicy" },
     { label: "Instytucje", path: "/instytucje" },
     { label: "Przygotowanie", path: "/przygotowanie" },
-    { label: "Przebieg", path: "/przebieg" },
+    { label: "Praktyki", path: "/praktyki" },
     { label: "Galeria", path: "/galeria" },
   ];
 
