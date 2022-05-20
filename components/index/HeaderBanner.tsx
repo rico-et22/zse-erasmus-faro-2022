@@ -12,7 +12,7 @@ export default function HeaderBanner() {
           <div className="bg-white py-2 px-4 rounded-t-xl">
             <p className="text-sm lg:text-base">Praktyki Erasmus+ w Portugalii</p>
           </div>
-          <div className="bg-emerald-600 text-white p-3 lg:p-4 rounded-tr-xl rounded-bl-xl">
+          <div className="bg-gradient-to-r from-portugal-green to-green-500 text-white p-3 lg:p-4 rounded-tr-xl rounded-bl-xl">
             <p className="text-2xl lg:text-4xl"><strong>Faro</strong> & Algarve 2022</p>
           </div>
           <div className="bg-elektronik-red text-white py-2 px-4 rounded-b-xl self-end">
