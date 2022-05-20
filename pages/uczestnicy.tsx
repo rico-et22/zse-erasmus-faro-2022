@@ -168,7 +168,7 @@ const Uczestnicy: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row items-start">
+          <div className="flex flex-col sm:flex-row items-start" id="opiekunowie">
             <div className=" w-full sm:w-1/3 md:mr-8">
               <h2 className="text-xl font-bold mb-3">Opiekunowie</h2>
               <TeacherList list={teachers} />

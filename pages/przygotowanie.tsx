@@ -90,7 +90,7 @@ const Instytucje: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100 py-8">
+      <div className="bg-gray-100 py-8" id="wycieczki">
         <div className="container mx-auto">
           <TextHeader left="Wycieczki" right="i aktywności" />
           <div className="flex sm:mb-8 flex-col sm:flex-row items-start">
@@ -107,7 +107,9 @@ const Instytucje: NextPage = () => {
                 <li>Tavira</li>
                 <li>Sewilla</li>
               </ul>
-              <p className="mb-8 sm:mb-0">Dodatkowo wzięliśmy udział w spływie kajakowym.</p>
+              <p className="mb-8 sm:mb-0">
+                Dodatkowo wzięliśmy udział w spływie kajakowym.
+              </p>
             </div>
             <div className="w-full sm:w-1/2 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0">
               <div className="w-full relative aspect-w-3 aspect-h-2">
@@ -123,31 +125,31 @@ const Instytucje: NextPage = () => {
             </div>
           </div>
           <div className="flex flex-col pb-10 md:flex-row md:-m-4 items-center">
-              <div className="w-full md:w-1/2 flex items-center justify-center bg-white rounded-lg shadow mb-4 sm:mb-0 m-4">
-                <div className="w-full relative aspect-w-3 aspect-h-2">
-                  <Image
-                    src={w2}
-                    className="rounded-lg"
-                    alt=""
-                    placeholder="blur"
-                    objectFit="cover"
-                    layout="fill"
-                  />
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 flex items-center justify-center relative bg-white rounded-lg shadow mb-4 sm:mb-0 m-4">
-                <div className="w-full relative aspect-w-3 aspect-h-2">
-                  <Image
-                    src={w3}
-                    className="rounded-lg"
-                    alt=""
-                    placeholder="blur"
-                    objectFit="cover"
-                    layout="fill"
-                  />
-                </div>
+            <div className="w-full md:w-1/2 flex items-center justify-center bg-white rounded-lg shadow mb-4 sm:mb-0 m-4">
+              <div className="w-full relative aspect-w-3 aspect-h-2">
+                <Image
+                  src={w2}
+                  className="rounded-lg"
+                  alt=""
+                  placeholder="blur"
+                  objectFit="cover"
+                  layout="fill"
+                />
               </div>
             </div>
+            <div className="w-full md:w-1/2 flex items-center justify-center relative bg-white rounded-lg shadow mb-4 sm:mb-0 m-4">
+              <div className="w-full relative aspect-w-3 aspect-h-2">
+                <Image
+                  src={w3}
+                  className="rounded-lg"
+                  alt=""
+                  placeholder="blur"
+                  objectFit="cover"
+                  layout="fill"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <FooterLogos />

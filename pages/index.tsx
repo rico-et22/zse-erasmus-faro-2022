@@ -34,9 +34,9 @@ const Home: NextPage = () => {
                 />
                 <InfoGraphics
                   icon="bi-people"
-                  boldText="4"
-                  text="nauczycieli / opiekunów"
-                  href="/uczestnicy#nauczyciele"
+                  boldText="8"
+                  text="nauczycieli i opiekunów"
+                  href="/uczestnicy#opiekunowie"
                 />
                 <InfoGraphics icon="bi-calendar" boldText="21" text="dni" href="/przebieg" />
                 <InfoGraphics icon="bi-building" boldText="8" text="firm" href="/instytucje#firmy" />
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
                   icon="bi-compass-fill"
                   boldText="8"
                   text="aktywności kulturowych"
-                  href="/przebieg#wycieczki"
+                  href="/przygotowanie#wycieczki"
                 />
               </div>
             </div>

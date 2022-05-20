@@ -37,7 +37,7 @@ export default function Navbar() {
               <Link key={route.path} href={route.path} passHref>
                 <a
                   className={`px-2 mx-1 py-1 text-xs lg:text-base ${
-                    route.path === asPath ? "bg-white rounded-lg shadow" : ""
+                    route.path === asPath.split("#")[0] ? "bg-white rounded-lg shadow" : ""
                   }`}
                 >
                   {route.label}
@@ -60,7 +60,7 @@ export default function Navbar() {
                 <Link key={route.path} href={route.path} passHref>
                   <a
                     className={`px-2 mx-1 py-1 text-sm ${
-                      route.path === asPath ? "bg-white rounded-lg shadow" : ""
+                      route.path === asPath.split("#")[0] ? "bg-white rounded-lg shadow" : ""
                     }`}
                   >
                     {route.label}

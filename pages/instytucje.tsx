@@ -149,7 +149,7 @@ const Instytucje: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100 py-8">
+      <div className="bg-gray-100 py-8" id="firmy">
         <div className="container mx-auto overflow-x-hidden">
           <TextHeader left="Firmy," right="które nas przyjęły" />
           <div className="flex flex-wrap -mx-4 -mt-4">
