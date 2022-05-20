@@ -71,7 +71,7 @@ const Instytucje: NextPage = () => {
                 />
               </div>
             </div>
-            <div className="flex mb-10 flex-col md:flex-row -m-4 items-center">
+            <div className="flex mb-10 flex-col md:flex-row md:-m-4 items-center">
               <div className="w-full md:w-1/2 flex items-center justify-center bg-white rounded-lg shadow mb-4 sm:mb-0 m-4">
                 <div className="w-full relative aspect-w-3 aspect-h-2">
                   <Image
@@ -142,7 +142,7 @@ const Instytucje: NextPage = () => {
                 />
               </div>
             </div>
-            <div className="flex mb-10 flex-col md:flex-row -m-4 items-center">
+            <div className="flex mb-10 flex-col md:flex-row md:-m-4 items-center">
               <div className="w-full md:w-1/2 flex items-center justify-center bg-white rounded-lg shadow mb-4 sm:mb-0 m-4">
                 <div className="w-full relative aspect-w-3 aspect-h-4">
                   <Image
@@ -207,7 +207,7 @@ const Instytucje: NextPage = () => {
                 />
               </div>
             </div>
-            <div className="flex mb-10 flex-col md:flex-row -m-4 items-center">
+            <div className="flex mb-10 flex-col md:flex-row md:-m-4 items-center">
               <div className="w-full md:w-1/2 flex items-center justify-center bg-white rounded-lg shadow mb-4 sm:mb-0 m-4">
                 <div className="w-full relative aspect-w-3 aspect-h-2">
                   <Image
