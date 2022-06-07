@@ -5,7 +5,7 @@ import HeaderBanner from "../components/index/HeaderBanner";
 import Navbar from "../components/Navbar";
 import TextHeader from "../components/TextHeader";
 import InfoGraphics from "../components/InfoGraphics";
-import React from "react";
+import React, { useState } from "react";
 import StudentList from "../components/uczestnicy/StudentList";
 import inf from "../public/photos/grupy/inf.jpg";
 import aut from "../public/photos/grupy/aut.jpg";
@@ -13,6 +13,7 @@ import ele from "../public/photos/grupy/ele.jpg";
 import all from "../public/photos/grupy/all.jpg";
 import Image from "next/image";
 import TeacherList from "../components/uczestnicy/TeacherList";
+import FsLightbox from "fslightbox-react";
 
 const Uczestnicy: NextPage = () => {
   const IT = [
@@ -101,9 +102,11 @@ const Uczestnicy: NextPage = () => {
     {
       name: "mgr inż. Maria Materna",
     },
+  ];
+
+  const teachers2 = [
     {
-      name: "Olavo Santos",
-      occupation: "język portugalski"
+      name: "Bruno Gameiro"
     },
     {
       name: "Natalia Chojecka",
@@ -112,10 +115,22 @@ const Uczestnicy: NextPage = () => {
       name: "Adriana Galek​"
     },
     {
-      name: "Bruno Gameiro"
-    },
+      name: "Olavo Dos Santos"
+    }
   ];
 
+  const [lightboxController, setLightboxController] = useState({
+    toggler: false,
+    slide: 1,
+  });
+
+  function openLightboxOnSlide(number: number) {
+    setLightboxController({
+      toggler: !lightboxController.toggler,
+      slide: number,
+    });
+  }
+  
   return (
     <div>
       <Head>
@@ -126,61 +141,70 @@ const Uczestnicy: NextPage = () => {
         />
       </Head>
       <Navbar />
-
+      <FsLightbox
+        toggler={lightboxController.toggler}
+        sources={[inf.src, aut.src, ele.src, all.src]}
+        slide={lightboxController.slide}
+      />
       <div className="bg-gray-100 py-8">
         <div className="container mx-auto overflow-x-hidden">
           <TextHeader left="Uczestnicy" right="projektu" />
+          <p className="mb-10 text-center text-xl">
+            Uczniowie Zespołu Szkół Elektronicznych w Rzeszowie
+          </p>
           <div className="flex flex-wrap sm:-mx-4 md:-mx-6 mb-10">
             <div className="w-full sm:w-1/3 sm:px-4 md:px-6 mb-10 sm:mb-0">
-              <h2 className="text-xl font-bold mb-3">Informatycy</h2>
+              <h2 className="text-xl font-bold mb-3">Technik informatyk</h2>
               <StudentList list={IT} />
-              <div className="shadow flex rounded-lg mb-1">
+              <button className="shadow flex rounded-lg mb-1" onClick={() => openLightboxOnSlide(1)}>
                 <Image
                   src={inf}
                   className="rounded-lg"
                   alt=""
                   placeholder="blur"
                 />
-              </div>
+              </button>
             </div>
             <div className="w-full sm:w-1/3 sm:px-4 md:px-6 mb-10 sm:mb-0">
-              <h2 className="text-xl font-bold mb-3">Elektronicy</h2>
+              <h2 className="text-xl font-bold mb-3">Technik elektronik</h2>
               <StudentList list={electronics} />
-              <div className="shadow flex rounded-lg mb-1">
+              <button className="shadow flex rounded-lg mb-1" onClick={() => openLightboxOnSlide(2)}>
                 <Image
                   src={aut}
                   className="rounded-lg"
                   alt=""
                   placeholder="blur"
                 />
-              </div>
+              </button>
             </div>
             <div className="w-full sm:w-1/3 sm:px-4 md:px-6 mb-10 sm:mb-0">
-              <h2 className="text-xl font-bold mb-3">Automatycy</h2>
+              <h2 className="text-xl font-bold mb-3">Technik automatyk</h2>
               <StudentList list={automatics} />
-              <div className="shadow flex rounded-lg mb-1">
+              <button className="shadow flex rounded-lg mb-1" onClick={() => openLightboxOnSlide(3)}>
                 <Image
                   src={ele}
                   className="rounded-lg"
                   alt=""
                   placeholder="blur"
                 />
-              </div>
+              </button>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-start" id="opiekunowie">
             <div className=" w-full sm:w-1/3 md:mr-8">
-              <h2 className="text-xl font-bold mb-3">Opiekunowie</h2>
+              <h2 className="text-xl font-bold mb-3">Polscy opiekunowie młodzieży podczas praktyk</h2>
               <TeacherList list={teachers} />
+              <h2 className="text-xl font-bold mb-3">Portugalscy opiekunowie młodzieży podczas praktyk</h2>
+              <TeacherList list={teachers2} />
             </div>
-            <div className="sm:w-2/3 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0 sm:mt-10">
+            <button className="sm:w-2/3 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0" onClick={() => openLightboxOnSlide(1)}>
               <Image
                 src={all}
                 className="rounded-lg"
                 alt=""
                 placeholder="blur"
               />
-            </div>
+            </button>
           </div>
         </div>
       </div>

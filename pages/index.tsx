@@ -34,12 +34,12 @@ const Home: NextPage = () => {
                 />
                 <InfoGraphics
                   icon="bi-people"
-                  boldText="8"
-                  text="nauczycieli i opiekunów"
+                  boldText="20"
+                  text="trenerów i organizatorów"
                   href="/uczestnicy#opiekunowie"
                 />
-                <InfoGraphics icon="bi-calendar" boldText="21" text="dni" href="/przebieg" />
-                <InfoGraphics icon="bi-building" boldText="8" text="firm" href="/instytucje#firmy" />
+                <InfoGraphics icon="bi-calendar" boldText="3" text="tygodnie stażu" href="/praktyki" />
+                <InfoGraphics icon="bi-building" boldText="10" text="firm i instytucji" href="/instytucje" />
                 <InfoGraphics
                   icon="bi-compass-fill"
                   boldText="8"
