@@ -37,8 +37,8 @@ export default function FooterLogos() {
           loading="lazy"
         />
       </div>
-      <div className="flex relative flex-wrap justify-around -mb-4 -mx-1 sm:-mx-2 mt-4">
-        <p>Strona zrobiona Przez <a href="https://github.com/rico-et22" className="underline">Kamila Pawlaka</a> oraz <a href="https://github.com/Bartek-Soul" className="underline">Bartosza Duszę</a></p>
+      <div className="flex relative flex-wrap justify-around -mb-4 -mx-1 sm:-mx-2 mt-4 pb-2 text-gray-500 text-sm">
+        <p>Strona zrobiona przez <a href="https://github.com/rico-et22" className="underline" target="_blank" rel="noopener noreferrer">Kamila Pawlaka</a> oraz <a href="https://github.com/Bartek-Soul" className="underline" target="_blank" rel="noopener noreferrer">Bartosza Duszę</a></p>
       </div>
     </div>
   );

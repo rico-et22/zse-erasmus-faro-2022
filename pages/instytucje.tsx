@@ -23,56 +23,56 @@ const Instytucje: NextPage = () => {
       image: britefil,
       url: "https://www.britefil.com/",
       vector: false,
-      desc: "Firma Britefil, zlokalizowana na obrzeżach Faro zajmuje się produkcją części do pomp hydraulicznych oraz paneli słonecznych."
+      desc: "Firma Britefil, zlokalizowana na obrzeżach Faro zajmuje się produkcją części do pomp hydraulicznych oraz paneli słonecznych.",
     },
     {
       name: "Clube do Hardware",
       image: chardware,
       url: "https://www.facebook.com/OClubedohardware/",
       vector: false,
-      desc: "Clube Do Hardware to lokalna firma z siedzibą w mieście Faro w Portugalii. Zajmuje się naprawą i konserwacją systemów komputerowych, odzyskiwaniem danych oraz naprawą laptopów i tabletów."
+      desc: "Clube Do Hardware to lokalna firma z siedzibą w mieście Faro w Portugalii. Zajmuje się naprawą i konserwacją systemów komputerowych, odzyskiwaniem danych oraz naprawą laptopów i tabletów.",
     },
     {
       name: "Flow Productions",
       image: flow,
       url: "http://flowproductions.pt/",
       vector: true,
-      desc: "Flow Productions to agencja kreatywna z siedzibą w kampusie UAlg Tec Campus na Uniwersytecie w Algarve. Zajmuje się produkcją i postprodukcją wideo, fotografią, marketingiem, mediami społecznościowymi oraz stronami i aplikacjami internetowymi."
+      desc: "Flow Productions to agencja kreatywna z siedzibą w kampusie UAlg Tec Campus na Uniwersytecie w Algarve. Zajmuje się produkcją i postprodukcją wideo, fotografią, marketingiem, mediami społecznościowymi oraz stronami i aplikacjami internetowymi.",
     },
     {
       name: "Tecnicontrol",
       image: tecnicontrol,
       url: "https://www.tecnicontrol.pt/en/home/",
       vector: false,
-      desc: "Tecnicontrol to firma zajmująca się zagadnieniami dotyczącymi alarmów przeciwpożarowych, instalacji dozoru elektronicznego oraz sieci telekomunikacyjnych."
+      desc: "Tecnicontrol to firma zajmująca się zagadnieniami dotyczącymi alarmów przeciwpożarowych, instalacji dozoru elektronicznego oraz sieci telekomunikacyjnych.",
     },
     {
       name: "Trueinox",
       image: trueinox,
       url: "https://www.true-inox.com/",
       vector: false,
-      desc: "True Inox to firma zajmująca się produkcją urządzeń AGD do hoteli i sklepów."
+      desc: "True Inox to firma zajmująca się produkcją urządzeń AGD do hoteli i sklepów.",
     },
     {
       name: "Underline",
       image: underline,
       url: "https://www.facebook.com/underline.concept/",
       vector: false,
-      desc: "Underline to firma specjalizująca się w produkcji materiałów związanych z wizerunkiem korporacyjnym. Zajmuje się projektowaniem, produkcją, montażem oraz kontrolą jakości."
+      desc: "Underline to firma specjalizująca się w produkcji materiałów związanych z wizerunkiem korporacyjnym. Zajmuje się projektowaniem, produkcją, montażem oraz kontrolą jakości.",
     },
     {
       name: "BPGame",
       image: bpgame,
       url: "https://www.facebook.com/BePartOfTheGameInformatica/",
       vector: false,
-      desc: "BP Game Informatica to portugalska firma z siedziba w mieście Olhão. Firma specjalizuje się w sprzedaży i serwisie wszelakich urządzeń AGD (w szczególności laptopy, konsole, telefony)."
+      desc: "BP Game Informatica to portugalska firma z siedziba w mieście Olhão. Firma specjalizuje się w sprzedaży i serwisie wszelakich urządzeń AGD (w szczególności laptopy, konsole, telefony).",
     },
     {
       name: "Sabit",
       image: undefined,
       url: "https://goo.gl/maps/CngYwrYicJgcKmrS6",
       vector: false,
-      desc: "Sabit to portugalska firma informatyczna z siedzibą w mieście Faro. Zajmuje się serwisem i sprzedażą sprzętu informatycznego. Firma ma największe kompetencje w rozwiązaniach dla restauracji, hotelarstwa oraz w zakresie zarządzania i rachunkowości."
+      desc: "Sabit to portugalska firma informatyczna z siedzibą w mieście Faro. Zajmuje się serwisem i sprzedażą sprzętu informatycznego. Firma ma największe kompetencje w rozwiązaniach dla restauracji, hotelarstwa oraz w zakresie zarządzania i rachunkowości.",
     },
   ];
 
@@ -90,18 +90,87 @@ const Instytucje: NextPage = () => {
       <div className="bg-gray-100 py-8">
         <div className="container mx-auto">
           <TextHeader left="Organizatorzy" right="naszych praktyk" />
+          <h2 className="mb-2 text-lg">
+            Instytucja wysyłająca i lider projektu:{" "}
+            <strong>Zespół Szkół Elektronicznych w Rzeszowie (ZSE)</strong>
+          </h2>
           <div className="flex mb-10 flex-col-reverse sm:flex-row">
             <p className="sm:w-3/4 md:mr-8">
-              Pomysłodawcą i instytucją wysyłającą nas na praktyki jest nasza
-              szkoła -{" "}
-              <strong>Zespół Szkół Elektronicznych w Rzeszowie.</strong>
+              ZSE w Rzeszowie od lat jest wiodącą placówką edukacyjną w zakresie
+              szkolnictwa zawodowego w województwie podkarpackim. Kształci kadrę
+              techniczną do pracy w branży elektronicznej i informatycznej
+              (około 1000 uczniów rocznie)
+              <br />
+              <br />
+              Działania szkoły wszechstronny rozwój ucznia nie tylko zawodowy,
+              ale również osobisty, społeczny, kulturowy, kształtowanie postaw
+              samodzielności, odpowiedzialności, poczucia własnej wartości,
+              świadomości kulturowej i międzykulturowej, zwiększenie motywacji
+              do nauki i rozwoju oraz zwiększenie szans na zatrudnienie. <br />
+              <br />
+              Szkoła współpracuje z lokalnymi przedsiębiorcami, firmami,
+              uczelniami, stowarzyszeniami i organizacjami zawodowymi. Uczniowie
+              odbywają ciekawe zajęcia specjalizacyjne i praktyki, a nawet
+              płatne wakacyjne staże, dzięki którym po ukończeniu szkoły
+              szybciej znajdują swoje miejsce na rynku pracy. <br />
+              Ponad 20 lat ZSE uczestniczy w programach Unii Europejskiej,
+              organizując zagraniczne praktyki zawodowe uczniów i szkolenia
+              nauczycieli w ścisłej współpracy z instytucjami szkoleniowymi i
+              firmami w kilkunastu państwach Europy. <br />
               <br />
               To jedna z największych szkół ponadgimnazjalnych na Podkarpaciu,
               kształcących w zawodach technika informatyka, elektronika i
-              automatyka. Kształci około 1000 uczniów. <br /> Od lat zajmuje
-              czołowe miejsce w rankingu "Perspektywy". <br /> Współpracuje z
-              różnymi instytucjami szkolenia zawodowego i zakładami pracy w
-              Polsce i za granicą.
+              automatyka. Kształci około 1000 uczniów. <br />
+              <br /> Od lat zajmuje czołowe miejsce w rankingu "Perspektywy".{" "}
+              <br />
+              <br /> Współpracuje z różnymi instytucjami szkolenia zawodowego i
+              zakładami pracy w Polsce i za granicą.
+              <br />
+              <br />
+              <strong>Osoby odpowiedzialne w projekcie:</strong>
+              <br />
+              Stanisław Sienko – Dyrektor Szkoły
+              <br /> Zbigniew Niedbała – koordynator projektu
+              <br />
+              Grzegorz Wójcik – nauczyciel języka angielskiego <br />
+              <br />
+              <strong>Kontakt:</strong>
+              <br />
+              Zespół Szkół Elektronicznych
+              <br /> ul. Hetmańska 120
+              <br />
+              35-078 Rzeszów, Poland <br />
+              Tel: 17 748 30 40; 17 748 30 41 <br />
+              Fax: 17 748 30 63 <br />
+              www:{" "}
+              <a
+                href="https://www.elektronik.rzeszow.pl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700"
+              >
+                https://www.elektronik.rzeszow.pl
+              </a>{" "}
+              <br />
+              e-mail:{" "}
+              <a
+                href="mailto:sekretariat@zsel.resman.pl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700"
+              >
+                sekretariat@zsel.resman.pl
+              </a>
+              <br />
+              e-mail:{" "}
+              <a
+                href="mailto:elektronik_rzeszow@intertele.pl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700"
+              >
+                elektronik_rzeszow@intertele.pl
+              </a>
             </p>
             <a
               href="https://elektronik.rzeszow.pl/"
@@ -118,19 +187,71 @@ const Instytucje: NextPage = () => {
               />
             </a>
           </div>
+          <h2 className="mb-2 text-lg">
+            Instytucja przyjmująca:{" "}
+            <strong>WakeUp Projects S.L. / Magic Sinderella Lda</strong>
+          </h2>
           <div className="flex flex-col-reverse sm:flex-row">
             <p className="sm:w-3/4 md:mr-8">
-              Wyjazd został zorganizowany we współpracy z instytucją
-              pośredniczącą{" "}
-              <strong>WakeUp Projects SL / Magic Cinderella LDA.</strong>
+              WakeUp Projects S.L. to instytucja prowadząca działalność w
+              zakresie kształcenia i szkolenia zawodowego w obszarze
+              międzynarodowym na terenie Faro i regionu Algarve w Portugalii.
+              Współpracuje z krajowymi i zagranicznymi placówkami kształcenia i
+              szkolenia zawodowego oraz firmami szkoląc nauczycieli i uczniów i
+              podnosząc ich wiedzę, umiejętności i kompetencje zawodowe zgodnie
+              z zapotrzebowaniem europejskiego rynku pracy. Organizuje
+              międzynarodowe projekty mobilności i wymiany doświadczeń kadry
+              szkoleniowej. Posiada doświadczenia we współpracy z wieloma
+              europejskimi instytucjami partnerskimi, w koordynacji i
+              zarządzaniu projektami UE, organizacji praktyk zawodowych oraz
+              towarzyszących działań merytoryczno-organizacyjnych. Aby zapewnić
+              najbardziej efektywne szkolenia, WakeUp Projects współpracuje z
+              wiodącymi przedsiębiorstwami w Faro i regionie Algarve w
+              Portugalii.
               <br />
-              Jest to prężnie działająca organizacja zlokalizowana w
-              portugalskim mieście Faro z dużym doświadczeniem w zakresie
-              zarządzania i koordynacji projektów edukacynych dotyczących
-              kształcenia młodzieży w ramach programów Unii Europejskiej, m.in,
-              Erasmus+. Praktyki zostały zorganizowane w 8 firmach na terenie
-              Faro oraz okolic działających w obszarze informatyki, automatyki i
-              elektroniki.
+              <br /> Głównym obszarem działalności jest organizacja
+              szkoleń/praktyk zawodowych dla europejskich uczniów i kadry,
+              zgodnie z wymogami oraz założeniami unijnych projektów mobilności.
+              Instytucja partnerska posiada duże doświadczenie w realizacji
+              kursów językowych i przygotowania kulturowego dla zagranicznej
+              młodzieży a także logistyki pobytu na stażach (zakwaterowanie,
+              wyżywienie, transport lokalny, etc.).
+              <br />
+              <br />
+              <strong>Osoby odpowiedzialne w projekcie:</strong>
+              <br />
+              Bruno Gameiro – dyrektor
+              <br /> Natalia Chojecka – koordynator projektu w Portugalii
+              <br />
+              Adriana Gałek – koordynator szkoleń
+              <br />
+              Olavo Dos Santos – nauczyciel języka portugalskiego <br /> <br />
+              <strong>Kontakt:</strong>
+              <br />
+              WakeUp Projects S.L. / Magic Sinderella Lda
+              <br /> Adres: Rua dos Combatentes da grande guerra n1 4esq
+              <br />
+              3080-123 Figueira da Foz, Portugal <br />
+              telefon: +34 673 933 466; +351 913 535 52 <br />
+              www:{" "}
+              <a
+                href="https://wakeupprojects.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700"
+              >
+                wakeupprojects.com
+              </a>{" "}
+              <br />
+              e-mail:{" "}
+              <a
+                href="mailto:info@wakeupprojects.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700"
+              >
+                info@wakeupprojects.com
+              </a>
             </p>
             <a
               href="https://wakeupprojects.com/"
@@ -154,7 +275,10 @@ const Instytucje: NextPage = () => {
           <TextHeader left="Firmy," right="które nas przyjęły" />
           <div className="flex flex-wrap -mx-4 -mt-4">
             {companies.map((company) => (
-              <div className="p-4 w-full sm:w-1/2 md:w-1/4 h-full" key={company.name}>
+              <div
+                className="p-4 w-full sm:w-1/2 h-full"
+                key={company.name}
+              >
                 <a
                   href={company.url}
                   target="_blank"
@@ -178,9 +302,13 @@ const Instytucje: NextPage = () => {
                       {company.name}
                     </p>
                   )}
-                  <hr/>
-                  <div className="bg-white px-4 py-3 rounded-b-lg">{company.image && <p className="text-lg font-bold mb-2">{company.name}</p>}
-                  <p>{company.desc}</p></div>
+                  <hr />
+                  <div className="bg-white px-4 py-3 rounded-b-lg">
+                    {company.image && (
+                      <p className="text-lg font-bold mb-2">{company.name}</p>
+                    )}
+                    <p>{company.desc}</p>
+                  </div>
                 </a>
               </div>
             ))}

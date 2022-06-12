@@ -38,8 +38,18 @@ const Home: NextPage = () => {
                   text="trenerów i organizatorów"
                   href="/uczestnicy#opiekunowie"
                 />
-                <InfoGraphics icon="bi-calendar" boldText="3" text="tygodnie stażu" href="/praktyki" />
-                <InfoGraphics icon="bi-building" boldText="10" text="firm i instytucji" href="/instytucje" />
+                <InfoGraphics
+                  icon="bi-calendar"
+                  boldText="3"
+                  text="tygodnie stażu"
+                  href="/praktyki"
+                />
+                <InfoGraphics
+                  icon="bi-building"
+                  boldText="10"
+                  text="firm i instytucji"
+                  href="/instytucje"
+                />
                 <InfoGraphics
                   icon="bi-compass-fill"
                   boldText="8"
@@ -49,17 +59,42 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="sm:w-2/3 md:w-3/4 px-4">
-              <p>
-                W okresie od 23.04-14.05.2022 roku 28 uczniów Zespołu Szkół
-                Elektronicznych w Rzeszowie zrealizowało 3-tygodniowe praktyki
-                zawodowe z elektroniki, informatyki i automatyki w Portugalii.{" "}
+              <p className="mb-5">
+                W ramach akredytowanego projektu ERASMUS+ nr
+                2021-1-PL01-KA121-VET-000008145, realizowanego przez Zespół
+                Szkół Elektronicznych w Rzeszowie (ZSE) 28 uczniów naszej Szkoły
+                uczestniczyło w praktykach zawodowych z informatyki, elektroniki
+                i automatyki w Portugalii
                 <br />
                 <br />
-                Staż zagraniczny odbywał się w ramach projektu Erasmus+. <br />
-                <br /> Praktyki zostały zorganizowane po raz pierwszy w historii szkoły w Faro -
-                stolicy regionu Algarve, oraz innych miastach tego regionu, we
-                współpracy z WakeUp Projects.
+                Praktyki zawodowe zostały zorganizowane we współpracy ZSE z
+                instytucją partnerską WakeUp Projects S.L. / Magic Sinderella
+                Lda w Faro. Praktyki zostały przeprowadzone w 8 portugalskich
+                firmach prowadzących działalność w branży elektronicznej i
+                informatycznej w regionie Algarve na południu Portugalii w
+                okresie od 25.04.2022 r do 13.05.2022 r. <br />
+                <br /> Praktyki zostały zorganizowane po raz pierwszy w historii
+                szkoły w Faro - stolicy regionu Algarve, oraz innych miastach
+                tego regionu, we współpracy z WakeUp Projects.
               </p>
+              <p className="mb-2">Główne cele projektu w odniesieniu do uczniów:</p>
+              <ul className="list-disc ml-4 mb-5">
+                <li className="mb-1">
+                  zwiększenie mobilności oraz doświadczenia zawodowego poprzez
+                  udział w zagranicznych praktykach zawodowych,
+                </li>
+                <li className="mb-1">
+                  poprawa kompetencji kluczowych i umiejętności ogólnych, w
+                  szczególności znajomości języków obcych w trakcie
+                  przygotowania do mobilności i podczas stażu za granicą,
+                </li>
+                <li className="mb-1">
+                  wspieranie jakości, transparentności i uznawania efektów
+                  uczenia się w okresach mobilności za granicą przy
+                  wykorzystaniu europejskich narzędzi.
+                </li>
+              </ul>
+              <p className="mb-2">Udział uczniów w projekcie obejmował przygotowanie kulturowo-pedagogiczne, językowe i organizacyjne przed wyjazdem, praktyki zawodowe w portugalskich zakładach pracy potwierdzone dokumentami Europass Mobility i certyfikatami, realizację programu kulturowo-językowego za granicą, dokumentowanie i upowszechnianie rezultatów stażu.</p>
               <hr className="border-gray-500 my-8 w-1/4" />
               <ol className="list-decimal ml-4 text-sm">
                 <li className="mb-5">
@@ -90,9 +125,9 @@ const Home: NextPage = () => {
                   <ol className="list-[lower-alpha] ml-6 mt-1">
                     <li>
                       Zwiększenie mobilności oraz doświadczenia zawodowego
-                      uczniów z ZSE poprzez udział w 3-tygodniowych zagranicznych
-                      praktykach zawodowych z elektroniki, informatyki i
-                      automatyki.
+                      uczniów z ZSE poprzez udział w 3-tygodniowych
+                      zagranicznych praktykach zawodowych z elektroniki,
+                      informatyki i automatyki.
                     </li>
                     <li>
                       Poprawa kompetencji kluczowych i umiejętności ogólnych, w
