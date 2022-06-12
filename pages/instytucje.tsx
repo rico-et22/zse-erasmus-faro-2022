@@ -23,56 +23,129 @@ const Instytucje: NextPage = () => {
       image: britefil,
       url: "https://www.britefil.com/",
       vector: false,
-      desc: "Firma Britefil, zlokalizowana na obrzeżach Faro zajmuje się produkcją części do pomp hydraulicznych oraz paneli słonecznych.",
+      desc: `Firma Britefil, zlokalizowana na obrzeżach Faro zajmuje się produkcją części do pomp hydraulicznych oraz paneli słonecznych.<br/>Trzej uczniowie naszej szkoły odbyli tam praktyki, na których zajmowali się obsługą maszyn CNC oraz automatyzacją procesów produkcyjnych na hali.<br/><br/>
+      Kontakt: <br/>
+
+Britefil <br/>
+
+Adres:  Campinas de Faro Apt 3002 - 8005-500 Faro, Portugal <br/>
+
+Telefon: +351 289 805 523 <br/> e-mail:  geral@britefil.com <br/> www: https://www.britefil.com/en/ <br/>
+
+Osoba odpowiedzialna: Antonio Brito - trener
+      `,
     },
     {
       name: "Clube do Hardware",
       image: chardware,
       url: "https://www.facebook.com/OClubedohardware/",
       vector: false,
-      desc: "Clube Do Hardware to lokalna firma z siedzibą w mieście Faro w Portugalii. Zajmuje się naprawą i konserwacją systemów komputerowych, odzyskiwaniem danych oraz naprawą laptopów i tabletów.",
+      desc: `Clube Do Hardware to lokalna firma z siedzibą w mieście Faro w Portugalii. Zajmuje się naprawą i konserwacją systemów komputerowych, odzyskiwaniem danych oraz naprawą laptopów i tabletów.<br/><br/>
+      Kontakt: <br/>
+
+      Clube do Hardware <br/>
+
+Adres: Rua Professor Alberto uva Nº4A 8000-271 Faro, Portugal <br/>
+
+Telefon: 
++351 289 812 897 <br/>
+
+Osoba odpowiedzialna: Bruno Nunes - trener`,
     },
     {
       name: "Flow Productions",
       image: flow,
       url: "http://flowproductions.pt/",
       vector: true,
-      desc: "Flow Productions to agencja kreatywna z siedzibą w kampusie UAlg Tec Campus na Uniwersytecie w Algarve. Zajmuje się produkcją i postprodukcją wideo, fotografią, marketingiem, mediami społecznościowymi oraz stronami i aplikacjami internetowymi.",
+      desc: `Flow Productions to agencja kreatywna z siedzibą w kampusie UAlg Tec Campus na Uniwersytecie w Algarve. Zajmuje się produkcją i postprodukcją wideo, fotografią, marketingiem, mediami społecznościowymi oraz stronami i aplikacjami internetowymi. <br/>Nasi uczniowie zajmowali się tam pisaniem stron internetowych, programowaniem oraz obróbką zdjęć. <br/><br/> Kontakt: <br/>
+
+      Flow Productions <br/>
+      
+      Adres: Edifício Ualg Tec Campus
+
+      Universidade do Algarve, Campus da Penha
+      8005-139, Faro, Portugal <br/>
+      
+      Telefon: +351 91 40 08 236 <br/> e-mail: info@flowproductions.pt <br/> www: http://flowproductions.pt/ <br/>
+      
+      Osoba odpowiedzialna: Helder Gonçalves - trener`,
     },
     {
       name: "Tecnicontrol",
       image: tecnicontrol,
       url: "https://www.tecnicontrol.pt/en/home/",
       vector: false,
-      desc: "Tecnicontrol to firma zajmująca się zagadnieniami dotyczącymi alarmów przeciwpożarowych, instalacji dozoru elektronicznego oraz sieci telekomunikacyjnych.",
+      desc: `Tecnicontrol to firma zajmująca się zagadnieniami dotyczącymi alarmów przeciwpożarowych, instalacji dozoru elektronicznego oraz sieci telekomunikacyjnych. <br/> <br/> Kontakt: <br/>
+
+      Tecnicontrol - Electrónica, Segurança E Comunicações <br/>
+      
+      Adres: Zona Industrial – Fase III Lotes 12/13, 8700-281 Olhao, Portugal <br/>
+      
+      Telefon: +351 288 860 320 <br/> e-mail: geral@tecnicontrol.pt <br/> www: https://www.tecnicontrol.pt/en/home/ <br/>
+      
+      Osoba odpowiedzialna: Orlando Santos - trener`,
     },
     {
       name: "Trueinox",
       image: trueinox,
       url: "https://www.true-inox.com/",
       vector: false,
-      desc: "True Inox to firma zajmująca się produkcją urządzeń AGD do hoteli i sklepów.",
+      desc: `True Inox to firma zajmująca się produkcją urządzeń AGD do hoteli i sklepów. <br/>Trzech uczniów z naszej szkoły trafiło tam na praktyki, gdzie zajmowali się składaniem urządzeń od zera, zaczynając od cięcia blach, a kończąc na łączeniu obwodów elektrycznych.<br/> <br/> Kontakt: <br/>
+
+      True Inox <br/>
+      
+      Adres: Sitio da Torre-Cx postal 490A/ 8135-029 Almancil, Portugal <br/>
+      
+      Telefon: +351 924 025 111 <br/> e-mail: trueinox@gmail.com <br/> www: https://www.true-inox.com/ <br/>
+      
+      Osoba odpowiedzialna: Andre Paixao - trener`,
     },
     {
       name: "Underline",
       image: underline,
       url: "https://www.facebook.com/underline.concept/",
       vector: false,
-      desc: "Underline to firma specjalizująca się w produkcji materiałów związanych z wizerunkiem korporacyjnym. Zajmuje się projektowaniem, produkcją, montażem oraz kontrolą jakości.",
+      desc: `Underline to firma specjalizująca się w produkcji materiałów związanych z wizerunkiem korporacyjnym. Zajmuje się projektowaniem, produkcją, montażem oraz kontrolą jakości.<br/>Nasi uczniowie z kierunku technik automatyk zajmowali się przede wszystkim obsługą obrabiarek CNC. <br/> <br/> Kontakt: <br/>
+
+      Underline <br/>
+      
+      Adres: 
+      E.N.125, Sítio da Cascalheira 8125-018 Quarteira, Portugal <br/>
+      
+      Telefon: +351 289 359 760 <br/> e-mail: info@underline.pt <br/>
+      
+      Osoba odpowiedzialna: Carlos Mendes - trener`,
     },
     {
       name: "BPGame",
       image: bpgame,
       url: "https://www.facebook.com/BePartOfTheGameInformatica/",
       vector: false,
-      desc: "BP Game Informatica to portugalska firma z siedziba w mieście Olhão. Firma specjalizuje się w sprzedaży i serwisie wszelakich urządzeń AGD (w szczególności laptopy, konsole, telefony).",
+      desc: `BP Game Informatica to portugalska firma z siedziba w mieście Olhão. Firma specjalizuje się w sprzedaży i serwisie wszelakich urządzeń AGD (w szczególności laptopy, konsole, telefony).<br/> <br/> Kontakt: <br/>
+
+      BPGame <br/>
+      
+      Adres: Av. D. João VI En. 125 Lj. 77/79, 8700-145 Olhão <br/>
+      
+      Telefon: +351 289 059 954 <br/> e-mail: 
+      bpginformaticaolhao@gmail.com <br/>
+      
+      Osoba odpowiedzialna: Diogo Lima - trener`,
     },
     {
       name: "Sabit",
       image: undefined,
       url: "https://goo.gl/maps/CngYwrYicJgcKmrS6",
       vector: false,
-      desc: "Sabit to portugalska firma informatyczna z siedzibą w mieście Faro. Zajmuje się serwisem i sprzedażą sprzętu informatycznego. Firma ma największe kompetencje w rozwiązaniach dla restauracji, hotelarstwa oraz w zakresie zarządzania i rachunkowości.",
+      desc: `Sabit to portugalska firma informatyczna z siedzibą w mieście Faro. Zajmuje się serwisem i sprzedażą sprzętu informatycznego. Firma ma największe kompetencje w rozwiązaniach dla restauracji, hotelarstwa oraz w zakresie zarządzania i rachunkowości. <br/> <br/> Kontakt: <br/>
+
+      Sabit <br/>
+      
+      Adres: R. Luís de Camões 9, 8000-388 Faro, Portugal <br/>
+      
+      Telefon: +351 289 896 480 <br/>
+      
+      Osoba odpowiedzialna: Tiago Santos - trener`,
     },
   ];
 
@@ -275,10 +348,7 @@ const Instytucje: NextPage = () => {
           <TextHeader left="Firmy," right="które nas przyjęły" />
           <div className="flex flex-wrap -mx-4 -mt-4">
             {companies.map((company) => (
-              <div
-                className="p-4 w-full sm:w-1/2 h-full"
-                key={company.name}
-              >
+              <div className="p-4 w-full sm:w-1/2 h-full" key={company.name}>
                 <a
                   href={company.url}
                   target="_blank"
@@ -307,7 +377,7 @@ const Instytucje: NextPage = () => {
                     {company.image && (
                       <p className="text-lg font-bold mb-2">{company.name}</p>
                     )}
-                    <p>{company.desc}</p>
+                    <p dangerouslySetInnerHTML={{ __html: company.desc }}></p>
                   </div>
                 </a>
               </div>
