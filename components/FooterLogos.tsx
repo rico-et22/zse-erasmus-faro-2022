@@ -32,7 +32,7 @@ export default function FooterLogos() {
         />
         <img
           src="/eu-funded.png"
-          alt="Finansowane przez Unię Europejską"
+          alt="Współfinansowane przez Unię Europejską"
           className="h-8 sm:h-12 mb-4 mx-1 sm:mx-2"
           loading="lazy"
         />
