@@ -197,7 +197,7 @@ const Uczestnicy: NextPage = () => {
               <h2 className="text-xl font-bold mb-3">Portugalscy opiekunowie młodzieży podczas praktyk</h2>
               <TeacherList list={teachers2} />
             </div>
-            <button className="sm:w-2/3 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0" onClick={() => openLightboxOnSlide(1)}>
+            <button className="sm:w-2/3 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0" onClick={() => openLightboxOnSlide(4)}>
               <Image
                 src={all}
                 className="rounded-lg"
