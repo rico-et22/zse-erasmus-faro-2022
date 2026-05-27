@@ -106,17 +106,17 @@ const Uczestnicy: NextPage = () => {
 
   const teachers2 = [
     {
-      name: "Bruno Gameiro"
+      name: "Bruno Gameiro",
     },
     {
       name: "Natalia Chojecka",
     },
     {
-      name: "Adriana Galek​"
+      name: "Adriana Galek​",
     },
     {
-      name: "Olavo Dos Santos"
-    }
+      name: "Olavo Dos Santos",
+    },
   ];
 
   const [lightboxController, setLightboxController] = useState({
@@ -130,7 +130,7 @@ const Uczestnicy: NextPage = () => {
       slide: number,
     });
   }
-  
+
   return (
     <div>
       <Head>
@@ -143,7 +143,7 @@ const Uczestnicy: NextPage = () => {
       <Navbar />
       <FsLightbox
         toggler={lightboxController.toggler}
-        sources={[inf.src, aut.src, ele.src, all.src]}
+        sources={[inf.src, ele.src, aut.src, all.src]}
         slide={lightboxController.slide}
       />
       <div className="bg-gray-100 py-8">
@@ -156,7 +156,10 @@ const Uczestnicy: NextPage = () => {
             <div className="w-full sm:w-1/3 sm:px-4 md:px-6 mb-10 sm:mb-0">
               <h2 className="text-xl font-bold mb-3">Technik informatyk</h2>
               <StudentList list={IT} />
-              <button className="shadow flex rounded-lg mb-1" onClick={() => openLightboxOnSlide(1)}>
+              <button
+                className="shadow flex rounded-lg mb-1"
+                onClick={() => openLightboxOnSlide(1)}
+              >
                 <Image
                   src={inf}
                   className="rounded-lg"
@@ -168,9 +171,12 @@ const Uczestnicy: NextPage = () => {
             <div className="w-full sm:w-1/3 sm:px-4 md:px-6 mb-10 sm:mb-0">
               <h2 className="text-xl font-bold mb-3">Technik elektronik</h2>
               <StudentList list={electronics} />
-              <button className="shadow flex rounded-lg mb-1" onClick={() => openLightboxOnSlide(2)}>
+              <button
+                className="shadow flex rounded-lg mb-1"
+                onClick={() => openLightboxOnSlide(2)}
+              >
                 <Image
-                  src={aut}
+                  src={ele}
                   className="rounded-lg"
                   alt=""
                   placeholder="blur"
@@ -180,9 +186,12 @@ const Uczestnicy: NextPage = () => {
             <div className="w-full sm:w-1/3 sm:px-4 md:px-6 mb-10 sm:mb-0">
               <h2 className="text-xl font-bold mb-3">Technik automatyk</h2>
               <StudentList list={automatics} />
-              <button className="shadow flex rounded-lg mb-1" onClick={() => openLightboxOnSlide(3)}>
+              <button
+                className="shadow flex rounded-lg mb-1"
+                onClick={() => openLightboxOnSlide(3)}
+              >
                 <Image
-                  src={ele}
+                  src={aut}
                   className="rounded-lg"
                   alt=""
                   placeholder="blur"
@@ -190,14 +199,24 @@ const Uczestnicy: NextPage = () => {
               </button>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row items-start" id="opiekunowie">
+          <div
+            className="flex flex-col sm:flex-row items-start"
+            id="opiekunowie"
+          >
             <div className=" w-full sm:w-1/3 md:mr-8">
-              <h2 className="text-xl font-bold mb-3">Polscy opiekunowie młodzieży podczas praktyk</h2>
+              <h2 className="text-xl font-bold mb-3">
+                Polscy opiekunowie młodzieży podczas praktyk
+              </h2>
               <TeacherList list={teachers} />
-              <h2 className="text-xl font-bold mb-3">Portugalscy opiekunowie młodzieży podczas praktyk</h2>
+              <h2 className="text-xl font-bold mb-3">
+                Portugalscy opiekunowie młodzieży podczas praktyk
+              </h2>
               <TeacherList list={teachers2} />
             </div>
-            <button className="sm:w-2/3 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0" onClick={() => openLightboxOnSlide(4)}>
+            <button
+              className="sm:w-2/3 flex items-center justify-center relative bg-white rounded-lg shadow  mb-4 sm:mb-0"
+              onClick={() => openLightboxOnSlide(4)}
+            >
               <Image
                 src={all}
                 className="rounded-lg"
